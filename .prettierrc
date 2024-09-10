@@ -1,9 +1,33 @@
 {
-	"printWidth": 80,
-	"tabWidth": 2,
-	"useTabs": false,
-	"trailingComma": "none",
-	"arrowParens": "avoid",
-
-
+  "printWidth": 80, // Keeps line lengths within 80 characters
+  "tabWidth": 2, // Standard indentation for Markdown files
+  "useTabs": false, // Use spaces instead of tabs
+  "trailingComma": "none", // No trailing commas
+  "arrowParens": "avoid", // Omit parentheses when possible in arrow functions
+  "semi": false, // No semicolons in JavaScript code blocks
+  "singleQuote": true, // Use single quotes in code blocks
+  "endOfLine": "lf", // Line-feed for consistency across environments
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown",
+        "printWidth": 80, // Keep lines at 80 characters in markdown files
+        "proseWrap": "always", // Wrap prose to fit within printWidth
+        "singleQuote": false, // Use double quotes for markdown content
+        "tabWidth": 2, // Standard tab width for lists and code blocks
+        "useTabs": false, // Ensure spaces are used for indentation
+        "trailingComma": "none", // No trailing commas in markdown lists or objects
+        "bracketSpacing": true, // Space between brackets for better readability
+        "htmlWhitespaceSensitivity": "ignore", // Ignore HTML whitespace sensitivity, useful for embedded HTML in Markdown
+        "quoteProps": "as-needed", // Only quote object properties when necessary in code blocks
+        "embeddedLanguageFormatting": "auto", // Automatically format embedded languages (like HTML, JavaScript, etc.)
+        "jsxSingleQuote": false, // Use double quotes in JSX code inside Markdown
+        "requirePragma": false, // No need for Prettier pragma comment in Markdown files
+        "insertPragma": false, // Don’t insert the pragma comment
+        "markdownTemplateCurlyBraces": false // Avoid escaping curly braces in code blocks or templating languages
+      }
+    }
+  ]
 }
+
