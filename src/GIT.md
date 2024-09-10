@@ -1,20 +1,28 @@
 # Introduction to Git and Git Cheat Sheet
 
-git is a powerfull tool for version control. It is used to track changes in the source code. It is used to coordinate work among programmers collaboratively developing source code during software development. It is a distributed version control system. It is designed to handle everything from small to very large projects with speed and efficiency.
+git is a powerfull tool for version control. It is used to track changes in the
+source code. It is used to coordinate work among programmers collaboratively
+developing source code during software development. It is a distributed version
+control system. It is designed to handle everything from small to very large
+projects with speed and efficiency.
 
-understanding in simple language Git provide a way to collabrate and manage code as well as track changes in the code. It is a tool that helps you to keep track of the changes in your code.
+understanding in simple language Git provide a way to collabrate and manage code
+as well as track changes in the code. It is a tool that helps you to keep track
+of the changes in your code.
 
 ## understanding git features
 
-The following is the overall structure of the git.
-![Git Flow](./git.png)
+The following is the overall structure of the git. ![Git Flow](./git.png)
 
 ### working Directory
 
     the working Directory is nothing but a folder on your local machine where you are working on your project. It is the place where you are making changes to your code.
 
-- `git init` : This command is used to initialize a new git repository. It creates a new subdirectory named .git that contains all of your necessary repository files.
-- `git status` : This command is used to check the status of the working directory. It shows the changes that are not staged for commit.
+- `git init` : This command is used to initialize a new git repository. It
+  creates a new subdirectory named .git that contains all of your necessary
+  repository files.
+- `git status` : This command is used to check the status of the working
+  directory. It shows the changes that are not staged for commit.
 
 ![Git init](./images/git_init.png)
 
