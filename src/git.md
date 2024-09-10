@@ -7,5 +7,5 @@
 
 ## understanding git features
 
-    ![Git Flow](./git.png)
+    ![Git Flow](/git.png)
 
