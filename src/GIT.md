@@ -7,5 +7,5 @@
 
 ## understanding git features
 
-    ![Git Flow](./git.png)
+    ![Git Flow](https://github.com/yourusername/repositoryname/blob/main/git.png?raw=true)
 
